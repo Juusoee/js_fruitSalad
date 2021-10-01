@@ -18,10 +18,10 @@ document.querySelector("#clear-list").addEventListener("click", function (ev) {
   clearItems();
 });
 
-document.querySelector("#filter-by").addEventListener("change", function (ev) {
-  filters.sortBy = ev.target.value
-  renderItems(itemList, filters)
-});
+// document.querySelector("#filter-by").addEventListener("change", function (ev) {
+//   filters.sortBy = ev.target.value
+//   renderItems(itemList, filters)
+// });
 
 document.querySelector('#ascending').addEventListener('click', function (ev){
   ev.preventDefault();

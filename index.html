@@ -4,28 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap jumbotron import-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--Fontawesome-->
+    <script src="https://use.fontawesome.com/e2bc64f80f.js"></script>
+    <!--Basic css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Fruit</title>
 </head>
 
 <body>
-    <h1>Fruit salad</h1>
-    <div id="summary"></div>
-    <div id="fruits"></div>
+    <main>
+        <h1>Fruit salad App</h1>
+        <div id="summary"></div>
+        <div id="fruits"></div>
         <form id="new-fruit">
             <input type="text" placeholder="Add fruit" name="fruit">
             <input type="number" placeholder="Price 0.00 €" name="price">
-            <button>Add to list</button>
-            <button id="clear-list">Clear All</button>
-            <select id="filter-by">
-                <option value="choose" disabled selected>Select your option</option>
-                <option value="descending">High to Low</option>
-                <option value="ascending">Low to High</option>
-            </select>
-            <button id="ascending">click</button>
-            <button id="descending">Click</button>
-                </form>
-    <script src="script/fruit-functions.js"></script>
-    <script src="/script/fruit-app.js"></script>
+            <button class="btn btn-success btn-sm">Add to list</button>
+            <button id="clear-list" class="btn btn-danger btn-sm">Clear All</button>
+            <button id="ascending" class="btn btn-secondary btn-sm">↓</button>
+            <button id="descending" class="btn btn-secondary btn-sm">↑</button>
+        </form>
+        <script src="script/fruit-functions.js"></script>
+        <script src="/script/fruit-app.js"></script>
+
+    </main>
 </body>
 
 </html>
