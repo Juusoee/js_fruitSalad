@@ -19,21 +19,94 @@
 
 <body>
     <main>
-        <h1>Fruit salad App</h1>
-        <div id="summary"></div>
-        <div id="fruits"></div>
-        <form id="new-fruit">
-            <input type="text" placeholder="Add fruit" name="fruit">
-            <input type="number" placeholder="Price 0.00 €" name="price">
-            <button class="btn btn-success btn-sm">Add to list</button>
-            <button id="clear-list" class="btn btn-danger btn-sm">Clear All</button>
-            <button id="ascending" class="btn btn-secondary btn-sm">↓</button>
-            <button id="descending" class="btn btn-secondary btn-sm">↑</button>
-        </form>
-        <script src="script/fruit-functions.js"></script>
-        <script src="/script/fruit-app.js"></script>
+        <div class="container py-4">
+            <header class="pb-3 mb-4 border-bottom">
+                <span class="fs-4">Fruit Salad App</span>
+            </header>
+            <div class="mb-4 bg-light rounded-3">
+                <img class="banner" src="img/bg.jpg" alt="">
+            </div>
+            <div class="align-items-md-stretch">
+                <div class="col-md-12">
+                    <div class="h-100 p-5 text-black bg-light rounded-3">
+                        <div class="row-cols-12">
+                            <h4>Start planning your Fruit Salad</h4>
+                            <!--Modal Starts here-->
+                            <p class="lead">For more info, click
+                                <a class="" data-toggle="modal" data-target="#ModalCenter">
+                                    Here
+                                </a>
+                            </p>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Info about this App</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span>&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5>General info</h5>
+                                        <p class="lead">Your family and friends are coming to visit you and congratulate
+                                            you on a place at the Academy! You're going to offer them fruit salad. To do
+                                            this, you need to make a shopping list. As you write the list, you're
+                                            worried about the budget and find it interesting to quickly see, which are
+                                            the most expensive and, which most affordable products are listed. </p>
+                                            <h5>How to use this App</h5>
+                                            <li>Add items to your list by giving fruit and price</li>
+                                            <li>App will count how many items you have on your list, and show them for you in a given order.</li>
+                                            <li>You can sort items by Ascending and Descending order to display most expensive and affordable products</li>
+                                            <li>Clear your list by pressing Clear All</li>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal ends here-->
+                        <div id="summary"></div>
+                        <div id="fruits"></div>
+                        <div class="form-row row align-items-start">
+                            <form id="new-fruit">
+                                <div class="form-row">
+                                    <div class="row col-5">
+                                        <input type="text" placeholder="Add fruit" name="fruit" class="form-control">
+                                    </div>
+                                    <div class="col">
+                                        <input type="number" placeholder="Price 0.00 €" name="price"
+                                            class="form-control">
+                                    </div>
+                                    <div class="col">
+                                        <div class="btn-group-sm">
+                                            <button class="btn btn-success btn-sm">Add to list</button>
+                                            <button id="clear-list" class="btn btn-danger btn-sm">Clear All</button>
+                                            <button id="ascending" class="btn btn-secondary btn-sm">↓</button>
+                                            <button id="descending" class="btn btn-secondary btn-sm">↑</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
 
+            <footer class="pt-3 mt-4 text-muted border-top">
+                &copy; 2021 | Juuso Rautiainen
+            </footer>
+
+        </div>
+        </div>
+        </div>
     </main>
+    <script src="script/fruit-functions.js"></script>
+    <script src="/script/fruit-app.js"></script>
 </body>
 
 </html>

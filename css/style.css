@@ -1,24 +1,33 @@
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
+
 .banner{
     width: 100%;
     height:auto;
 }
-h2{
+h4{
     margin-bottom: 20px;
 }
+link{
+ text-decoration:none;
+}
+h5{
+  padding-bottom: 20px;
+}
 
-h4{
-  margin: 20px 20px 20px 5px;
+img{
+  width: 795px;
+  height: 300px;
+}
+.form-control{
+  padding: 0;
+}
+a{
+  color: black !important;
+  text-decoration: none !important; 
 }
 tbody p{
   margin: 5px;
 }
+
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;

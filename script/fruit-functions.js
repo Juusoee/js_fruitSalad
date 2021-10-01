@@ -13,7 +13,7 @@ const getSavedItems = function () {
 const renderItems = function (itemList) {
   document.querySelector("#fruits").innerHTML = "";
 
-  const summary = document.createElement("h4");
+  const summary = document.createElement("h5");
   summary.textContent = `You have ${itemList.length} items on your list.`;
   document.querySelector("#fruits").appendChild(summary);
 
