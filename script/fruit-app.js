@@ -19,5 +19,16 @@ document.querySelector("#clear-list").addEventListener("click", function (ev) {
 });
 
 document.querySelector("#filter-by").addEventListener("change", function (ev) {
-  console.log(ev.target.value);
+  filters.sortBy = ev.target.value
+  renderItems(itemList, filters)
 });
+
+document.querySelector('#ascending').addEventListener('click', function (ev){
+  ev.preventDefault();
+  ascending();
+})
+
+document.querySelector('#descending').addEventListener('click', function (ev){
+  ev.preventDefault();
+  descending();
+})

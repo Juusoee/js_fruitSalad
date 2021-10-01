@@ -41,3 +41,27 @@ const clearItems = function () {
   localStorage.clear();
   renderItems(itemList);
 };
+
+// Sort Low to High
+const ascending = function () {
+  let ascending = itemList.sort(
+    (a, b) => parseFloat(a.price) - parseFloat(b.price)
+  );
+  const p = document.querySelectorAll("p");
+  ascending.forEach(function (item) {
+    p.textContent = item.ingredient + " " + item.price + " €";
+  });
+  renderItems(itemList);
+};
+
+// Sort High to Low
+const descending = function () {
+  let descending = itemList.sort(
+    (a, b) => parseFloat(b.price) - parseFloat(a.price)
+  );
+  const p = document.querySelectorAll("p");
+  descending.forEach(function (item) {
+    p.textContent = item.ingredient + " " + item.price + " €";
+  });
+  renderItems(itemList);
+};
