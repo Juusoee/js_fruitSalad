@@ -13,12 +13,13 @@ const getSavedItems = function () {
 const renderItems = function (itemList) {
   document.querySelector("#fruits").innerHTML = "";
 
-  const summary = document.createElement("h5");
-  summary.textContent = `You have ${itemList.length} items on your list.`;
+  
+  const summary = document.createElement("p");
+  summary.textContent = `Amount of items on your list ${itemList.length}.`;
   document.querySelector("#fruits").appendChild(summary);
 
   itemList.forEach(function (item) {
-    const p = document.createElement("p");
+    const p = document.createElement("ul");
     p.textContent = item.ingredient + " " + item.price + " €";
     document.querySelector("#fruits").appendChild(p);
   });
@@ -31,7 +32,7 @@ const pushLocal = function (itemList) {
 
 // Clear DOM and localStorage
 const clearItems = function () {
-  const items = document.querySelectorAll("p");
+  const items = document.querySelectorAll("fruits");
   items.forEach(function (p) {
     p.remove();
   });
