@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit</title>
+</head>
+
+<body>
+    <h1>Fruit salad</h1>
+    <div id="summary"></div>
+    <div id="fruits"></div>
+        <form id="new-fruit">
+            <input type="text" placeholder="Add fruit" name="fruit">
+            <input type="number" placeholder="Price 0.00 €" name="price">
+            <button>Add to list</button>
+            <button id="clear-list">Clear All</button>
+            <select id="filter-by">
+                <option value="" disabled selected>Select your option</option>
+                <option value="descending">High to Low</option>
+                <option value="ascending">Low to High</option>
+            </select>
+                </form>
+    <script src="script/fruit-functions.js"></script>
+    <script src="/script/fruit-app.js"></script>
+</body>
+
+</html>
