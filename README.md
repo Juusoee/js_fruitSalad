@@ -1,6 +1,6 @@
-<h2><u>js_fruitSalad<u></h2>
+### js_fruitSalad
 
-<h2>About The project<h2>
+### About The Project
   
   ![screenshot](https://user-images.githubusercontent.com/74466178/135825801-ddf31f70-e91f-4d36-b115-5db5560c2c4b.png)
 
@@ -18,7 +18,14 @@
   
   <h3>Here is my solution for given assignment</h3>
 
-npm install -g live-server
+  ### Installation
+  
+  *npm
+  ```sh
+  npm install -g live-server
+  ```
+  
+  
   
   <h3>HTML</h3>
 <li> <a href="https://github.com/Juusoee/js_fruitSalad/blob/master/index.html">Index</a></li>
