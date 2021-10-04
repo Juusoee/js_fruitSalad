@@ -1,6 +1,5 @@
 <h4>About The project<h4>
 
-  ! [alt text] (https://github.com/Juusoee/js_fruitSalad/blob/master/img/screenshot.png?raw=true)
   
 <h1><u>js_fruitSalad<u></h1>
 <h2><u>Fruit Salad App for Acadamy Prestudy Checkpoint</u><h2>
