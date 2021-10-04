@@ -1,7 +1,8 @@
-<h4>About The project<h4>
+<h2>About The project<h2>
+![screenshot](https://user-images.githubusercontent.com/74466178/135825623-03389c21-b657-4f40-ad6b-276c7c0825c0.png)
 
   
-<h1><u>js_fruitSalad<u></h1>
+<h2><u>js_fruitSalad<u></h2>
 <h2><u>Fruit Salad App for Acadamy Prestudy Checkpoint</u><h2>
 
   <h3>HTML</h3>
