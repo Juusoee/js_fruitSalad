@@ -6,7 +6,7 @@
 
   <h3>Given assignment</h3
     
-  <i><sup><sup>Your family and friends are coming to visit you and congratulate you on a place at the Academy! You're going to offer them fruit salad. To do this, you need to make a shopping list. As you write the list, you're worried about the budget and find it interesting to quickly see, which are the most expensive and, which most affordable products are listed. </sup></sup></i>
+  <i><sup>Your family and friends are coming to visit you and congratulate you on a place at the Academy! You're going to offer them fruit salad. To do this, you need to make a shopping list. As you write the list, you're worried about the budget and find it interesting to quickly see, which are the most expensive and, which most affordable products are listed. </sup></i>
   
   <p>Your task is to encode a program that:</p>
   <ul>
