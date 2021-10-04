@@ -1,5 +1,7 @@
 <h2>About The project<h2>
-![screenshot](https://user-images.githubusercontent.com/74466178/135825623-03389c21-b657-4f40-ad6b-276c7c0825c0.png)
+###
+  
+![screenshot](https://user-images.githubusercontent.com/74466178/135825801-ddf31f70-e91f-4d36-b115-5db5560c2c4b.png)
 
   
 <h2><u>js_fruitSalad<u></h2>
