@@ -2,7 +2,7 @@
   
   ![screenshot](https://user-images.githubusercontent.com/74466178/135825801-ddf31f70-e91f-4d36-b115-5db5560c2c4b.png)
 
-  <i><sup<sup>Your family and friends are coming to visit you and congratulate you on a place at the Academy! You're going to offer them fruit salad. To do this, you need to make a shopping list. As you write the list, you're worried about the budget and find it interesting to quickly see, which are the most expensive and, which most affordable products are listed.</sup></sup></i>
+  <i><sup><sup>Your family and friends are coming to visit you and congratulate you on a place at the Academy! You're going to offer them fruit salad. To do this, you need to make a shopping list. As you write the list, you're worried about the budget and find it interesting to quickly see, which are the most expensive and, which most affordable products are listed.</sup></sup></i>
   
 
 
