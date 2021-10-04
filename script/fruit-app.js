@@ -7,7 +7,7 @@ document.querySelector("#new-fruit").addEventListener("submit", function (ev) {
     ingredient: ev.target.elements.fruit.value,
     price: ev.target.elements.price.value,
   });
-  pushLocal();
+  pushLocal(itemList);
   renderItems(itemList);
   ev.target.elements.fruit.value = "";
   ev.target.elements.price.value = "";
@@ -17,11 +17,6 @@ document.querySelector("#clear-list").addEventListener("click", function (ev) {
   ev.preventDefault();
   clearItems();
 });
-
-// document.querySelector("#filter-by").addEventListener("change", function (ev) {
-//   filters.sortBy = ev.target.value
-//   renderItems(itemList, filters)
-// });
 
 document.querySelector('#ascending').addEventListener('click', function (ev){
   ev.preventDefault();

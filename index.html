@@ -9,8 +9,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!--Fontawesome-->
-    <script src="https://use.fontawesome.com/e2bc64f80f.js"></script>
     <!--Basic css-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -58,15 +56,15 @@
                                             worried about the budget and find it interesting to quickly see, which are
                                             the most expensive and, which most affordable products are listed. </p>
                                         <h5>How to use this App</h5>
-                                        <ul>
-                                            <li>Add items to your list by giving fruit and price</li>
-                                            <li>App will count how many items you have on your list, and show them for
-                                                you in a given order.</li>
-                                            <li>You can sort items by Ascending and Descending order to display most
-                                                expensive and affordable products</li>
-                                            <li>Clear your list by pressing Clear All</li>
-                                        </ul>
 
+                                        <li>Add items to your list by giving fruit and price</li>
+                                        <li>App will count how many items you have on your list, and show them for
+                                            you in a given order.</li>
+                                        <li>You can sort items by Ascending and Descending order to display most
+                                            expensive and affordable products</li>
+                                        <li>Clear your list by pressing Clear All</li>
+
+                                        <br>
                                         <h5>Install</h5>
                                         <img class="install" src="/img/livesever.png" alt="liveserver">
 
@@ -86,11 +84,11 @@
                             <form id="new-fruit">
                                 <div class="form-row">
                                     <div class="row col-7">
-                                        <input type="text" placeholder="Add fruit" name="fruit" class="form-control">
+                                        <input type="text" placeholder="Add fruit" name="fruit" class="form-control" required>
                                     </div>
                                     <div class="col-2">
-                                        <input type="number" placeholder="Price 0.00 €" name="price"
-                                            class="form-control">
+                                        <input type="number" step="0.01" min=0 placeholder="Price 0.00 €" name="price"
+                                            class="form-control" required>
                                     </div>
                                     <div class="btn-group">
                                         <button class="btn btn-success btn-sm">Add to list</button>
@@ -103,7 +101,7 @@
                         </form>
                     </div>
                 </div>
-                
+
             </div>
             <footer class="pt-3 mt-4 text-muted border-top">
                 &copy; 2021 | Juuso Rautiainen

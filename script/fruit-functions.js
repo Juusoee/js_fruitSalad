@@ -1,4 +1,4 @@
-// Read existing notes from LocalStorage
+// Read existing items from LocalStorage
 const getSavedItems = function () {
   const itemsJSON = localStorage.getItem("itemList");
 
@@ -13,14 +13,14 @@ const getSavedItems = function () {
 const renderItems = function (itemList) {
   document.querySelector("#fruits").innerHTML = "";
 
-  
   const summary = document.createElement("p");
   summary.textContent = `Amount of items on your list ${itemList.length}.`;
   document.querySelector("#fruits").appendChild(summary);
 
   itemList.forEach(function (item) {
     const p = document.createElement("ul");
-    p.textContent = item.ingredient + " " + item.price + " €";
+    let price = parseFloat(item.price)
+    p.textContent = item.ingredient + " " + price.toFixed(2) + " €";
     document.querySelector("#fruits").appendChild(p);
   });
 };
@@ -28,6 +28,7 @@ const renderItems = function (itemList) {
 // Push item to LocalStorage
 const pushLocal = function (itemList) {
   localStorage.setItem("itemList", JSON.stringify(itemList));
+  
 };
 
 // Clear DOM and localStorage
