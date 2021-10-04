@@ -18,9 +18,8 @@
   
   <h3>Here is my solution for given assignment</h3>
 
-
-  <li> <a href="https://github.com/Juusoee/js_fruitSalad/archive/refs/heads/master.zip"></a>Download ZIP</li>
-
+npm install -g live-server
+  
   <h3>HTML</h3>
 <li> <a href="https://github.com/Juusoee/js_fruitSalad/blob/master/index.html">Index</a></li>
 
