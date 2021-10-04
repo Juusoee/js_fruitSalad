@@ -16,27 +16,36 @@
   </ul>
   
   
-  <h3>Here is my solution for given assignment</h3>
+  ### Here is my solution for given assignment
 
   ### Installation
   
-  *npm
+  1. Get live-server
+  
   ```sh
   npm install -g live-server
+  ```
+  2. Clone repository
+  ```sh
+  git clone https://github.com/Juusoee/js_fruitSalad.git
+  ```
+  3. Go live 
+  ```sh 
+  live-server /Users/username/js_fruitSalad
   ```
   
   
   
-  <h3>HTML</h3>
+  <h4>HTML</h4>
 <li> <a href="https://github.com/Juusoee/js_fruitSalad/blob/master/index.html">Index</a></li>
 
   
-  <h3>Script</h3>
+  <h4>Script</h4>
 <li> <a href="https://github.com/Juusoee/js_fruitSalad/blob/master/script/fruit-app.js">fruit-app.js</a></li>
 <li> <a href="https://github.com/Juusoee/js_fruitSalad/blob/master/script/fruit-functions.js">fruit-function.js</a></li>
  
   
-  <h3>CSS</h3>
+  <h4>CSS</h4>
 <li><a href="https://github.com/Juusoee/js_fruitSalad/blob/master/css/style.css">style.css</a></li>
 
 
