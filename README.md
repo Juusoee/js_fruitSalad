@@ -6,15 +6,15 @@
 
   <h3>Given assignment</h3
     
-  <i><sup><sup>Your family and friends are coming to visit you and congratulate you on a place at the Academy! You're going to offer them fruit salad. To do this, you need to make a shopping list. As you write the list, you're worried about the budget and find it interesting to quickly see, which are the most expensive and, which most affordable products are listed.</i>
+  <i><sup><sup>Your family and friends are coming to visit you and congratulate you on a place at the Academy! You're going to offer them fruit salad. To do this, you need to make a shopping list. As you write the list, you're worried about the budget and find it interesting to quickly see, which are the most expensive and, which most affordable products are listed. </sup></sup></i>
   
-  <ul>Your task is to encode a program that:
-
-    <li>Asks the user to enter different products and how much they cost</li>
+  <p>Your task is to encode a program that:</p>
+  <ul>
+   <li>Asks the user to enter different products and how much they cost</li>
     <li>Displays the most expensive product to the user</li>
     <li>Displays the most affordable product for the user</li>
   </ul>
-  </sup></sup>
+  
   
   <h3>Here is my solution for given assignment</h3>
 
