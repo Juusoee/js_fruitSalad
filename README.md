@@ -33,7 +33,7 @@
   ```sh 
   live-server /Users/username/js_fruitSalad
   ```
-  
+  <br>
   
   
   <h4>HTML</h4>
