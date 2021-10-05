@@ -2,7 +2,7 @@
 
 ### About The Project
   
-  ![screenshot](https://user-images.githubusercontent.com/74466178/135825801-ddf31f70-e91f-4d36-b115-5db5560c2c4b.png)
+  ![Uploading Näyttökuva 2021-10-5 kello 23.52.23.png…]()
 
   <h3>Given assignment</h3
     
