@@ -25,7 +25,6 @@ const renderItems = function (itemList) {
     let price = parseFloat(item.price);
     ul.textContent = item.ingredient + " " + price.toFixed(2) + " €";
     document.querySelector("#fruits").appendChild(ul);
-    lowhigh();
   });
 };
 
@@ -80,6 +79,7 @@ const lowhigh = function () {
     let highestPrice = itemList.sort(
       (a, b) => parseFloat(b.price) - parseFloat(a.price)
     );
+    // Push to localStorage
     localStorage.setItem("high", JSON.stringify(highestPrice));
     let dfPrice = parseFloat(highestPrice[0].price);
     document.getElementById("high").innerHTML =
@@ -93,6 +93,7 @@ const lowhigh = function () {
     let lowestPrice = itemList.sort(
       (a, b) => parseFloat(a.price) - parseFloat(b.price)
     );
+    // Push localStorage
     localStorage.setItem("low", JSON.stringify(lowestPrice));
     let dfPriceb = parseFloat(lowestPrice[0].price);
     document.getElementById("low").innerHTML =
