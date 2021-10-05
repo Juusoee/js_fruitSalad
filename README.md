@@ -2,7 +2,8 @@
 
 ### About The Project
   
-  ![Uploading Näyttökuva 2021-10-5 kello 23.52.23.png…]()
+ 
+![Näyttökuva 2021-10-5 kello 23 52 23](https://user-images.githubusercontent.com/74466178/136101045-4fd0b532-e7aa-40a1-b627-d3d73e98b20e.png)
 
   <h3>Given assignment</h3
     
